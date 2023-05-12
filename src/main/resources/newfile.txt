@@ -1,0 +1,16 @@
+40-60, Nanyang Technological University, Singapore, www.ntu.edu.sg, +65 9038 0625, jamarcus.jacobs@hotmail.com, 3504 East 5th Street, Panama City FL 32401
+40-60, Tsinghua University, China, tsinghua.edu.cn, +86 174 0318 1738, zpfannerstill@hotmail.com, 6123 West Marlette Avenue, Glendale AZ 85301
+20-40, Peking University, China, pku.edu.cn, +86 174 0259 5133, balistreri.filomena@skiles.net, 1376 Oakland Avenue, Fayetteville AR 72703
+40-60, The University of Hong Kong, Hong Kong, hku.hk, +852 6663 1336, mayert.darrion@feeney.com, 15771 West 64th Avenue, Arvada CO 80403
+20-40, The University of Tokyo, Japan, u-tokyo.ac.jp, +81 80-8038-7570, considine.elian@howe.com, 1780 Poplar Ridge Road, Pasadena MD 21122
+1-20, University of Toronto, Canada, www.utoronto.ca, +1 437-333-9180, mondricka@gmail.com, 1797 Pasatiempo Drive, Chico CA 95928
+40-60, McGill University, Canada, mcgill.ca, +1 289-479-8089, parker.kieran@gmail.com, 39 Cottage Street, Athol MA 01331
+20-40, The Australian National University, Australia, www.anu.edu.au, +61 416 885 043, bart.kunze@gmail.com, 849 East Victoria Street, Carson CA 90746
+1-20, EPFL, Швейцария, epfl.ch, +41 78 737 47 55, uchamplin@yahoo.com, 1666 South Summer Rose Avenue, Fayetteville AR 72701
+40-60, Fudan University, China, www.fudan.edu.cn, +86 174 0563 3014, werner.nitzsche@hotmail.com, 7854 Webster Way, Arvada CO 80003
+40-60, Kyoto University, Japan, kyoto-u.ac.jp/en, +81 70-2045-8622, jillian.kihn@hackett.net, 6373 West Golden Lane, Glendale AZ 85302
+40-60, The Hong Kong University of Science and Technology, Hong Kong, ust.hk, +852 4682 8363, sabina.oconner@kozey.com, 503 Blackwood Terrace Southeast, Calhoun GA 30701
+1-20, Seoul National University, South Korea, www.snu.ac.kr, +82 12-2153-3647, gpaucek@lubowitz.com, 1106 Homer Avenue, Savannah GA 31405
+1-20, Korea Advanced Institute of Science Technology, South Korea, kaist.ac.kr, +82 10-595-5358, xkoss@johnston.com, 1403 Robinson Road, Nashville TN 37138
+40-60, The University of New South Wales, Australia, www.unsw.edu.au, +61 483 084 623, owiegand@yahoo.com, 6021 Yarrow Street, Arvada CO 80004
+1-20, Université PSL, France, www.psl.eu/en, +33 6 35 87 68 50, alexa49@yahoo.com, 3466 Southview Avenue, Montgomery AL 36111

@@ -4,21 +4,21 @@ import java.util.Objects;
 
 public class School {
 
-    int age;
+   private int age;
 
-    String name;
+    private String name;
 
-    String linkSchool;
+    private String linkSchool;
 
-    String phoneNumber;
+    private String phoneNumber;
 
-    String email;
+    private String email;
 
-    String address;
+    private String address;
 
-    int ageLimitTo;
+    private int ageLimitTo;
 
-    int ageLimitFrom;
+    private int ageLimitFrom;
 
     public School(int age, String name, String linkSchool, String phoneNumber, String email, String address, int ageLimitTo, int ageLimitFrom) {
         this.age = age;

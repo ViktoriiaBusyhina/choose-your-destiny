@@ -4,9 +4,9 @@ import java.util.Objects;
 
 public class User {
 
-    int age;
+    private int age;
 
-    String localDate;
+    private String localDate;
 
     public User(int age, String localDate) {
         this.age = age;

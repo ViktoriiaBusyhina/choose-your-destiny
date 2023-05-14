@@ -7,29 +7,29 @@ import java.util.List;
 public class FileService {
 
     private String inputFile;
-    private String outputFile;
+   // private String outputFile;
 
-    public FileService(String inputFile, String outputFile) {
+    public FileService(String inputFile) {
         this.inputFile = inputFile;
-        this.outputFile = outputFile;
+       // this.outputFile = outputFile;
     }
 
-    public void rewriteToNewFileWithRandomAgeLimit() {
-        try {
-            try (BufferedReader bufferedReader = new BufferedReader(new FileReader(inputFile));
-                 BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(outputFile))) {
-                String line;
-                while ((line = bufferedReader.readLine()) != null) {
-                    bufferedWriter.write(AgeRestrictions.getRandomAgeLimit().getLimit() + ", " + line);
-                    bufferedWriter.newLine();
-                }
-            }
-
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
-    }
-
+    //public void rewriteToNewFileWithRandomAgeLimit() {
+    //    try {
+    //        try (BufferedReader bufferedReader = new BufferedReader(new FileReader(inputFile));
+    //             BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(outputFile))) {
+    //            String line;
+    //            while ((line = bufferedReader.readLine()) != null) {
+    //                bufferedWriter.write(AgeRestrictions.getRandomAgeLimit().getLimit() + ", " + line);
+    //                bufferedWriter.newLine();
+    //            }
+    //        }
+//
+    //    } catch (IOException e) {
+    //        throw new RuntimeException(e);
+    //    }
+    //}
+//
     public List<String> addStringsToList() {
         List<String> stringList = new ArrayList<>();
         try {

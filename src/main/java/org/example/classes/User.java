@@ -1,23 +1,28 @@
 package org.example.classes;
 
 import lombok.Data;
-import lombok.Getter;
-import lombok.Setter;
+
 
 import java.time.LocalDate;
-import java.util.Objects;
+import java.time.Period;
+
 @Data
 public class User {
 
     private int age;
 
-    private LocalDate date;
+    private LocalDate dateOfBirth;
 
-    public User(int age) {
-        this.age = age;
+
+    public User(LocalDate dateOfBirth) {
+        this.dateOfBirth = dateOfBirth;
+        this.age = calculateAge();
     }
 
-
+    public int calculateAge() {
+        LocalDate dateNow = LocalDate.now();
+        return Period.between(dateOfBirth, dateNow).getYears();
+    }
 
 
 }

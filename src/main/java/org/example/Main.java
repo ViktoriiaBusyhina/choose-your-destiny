@@ -1,7 +1,8 @@
 package org.example;
 
-import org.example.classes.BirthdateCreator;
 import org.example.classes.FileService;
+import org.example.classes.School;
+import org.example.classes.User;
 
 import java.time.LocalDate;
 import java.util.List;
@@ -12,19 +13,36 @@ public class Main {
         //LocalDate test = birthdateCreator.createUserBirthdate();
         //System.out.println(test);
 
-        String filePath = "src/main/resources/University";
+        //String filePath = "src/main/resources/University";
 
-        String output = "src/main/resources/newfile.txt";
+        String filePath = "src/main/resources/newfile.txt";
 
-        FileService fileService = new FileService(filePath, output);
+        FileService fileService = new FileService(filePath);
 
         List<String> universities =  fileService.addStringsToList();
-        for (String university : universities) {
-            System.out.println(university);
+
+        //fileService.rewriteToNewFileWithRandomAgeLimit();
+
+        List<School> listOfSchools = School.getSchools(universities);
+
+        LocalDate localDate = LocalDate.of(1985,05,03);
+        User user = new User(localDate);
+        System.out.println(user);
+
+        School school = new School();
+        List<School> filtered = school.filterSchoolByAge(listOfSchools, user);
+        for (School school1 : filtered) {
+            System.out.println(school1);
         }
 
-        fileService.rewriteToNewFileWithRandomAgeLimit();
+
+
+
+
+
     }
+
+
 
 
 }

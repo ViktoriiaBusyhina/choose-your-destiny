@@ -1,8 +1,6 @@
 package org.example.classes;
 
 import lombok.Data;
-import lombok.Getter;
-import lombok.Setter;
 
 import java.util.Scanner;
 
@@ -26,9 +24,6 @@ public class InputService {
         startInput();
     }
 
-
-
-
     public void readDay() {
         day = scanner.nextLine();
     }
@@ -41,7 +36,7 @@ public class InputService {
         year = scanner.nextLine();
     }
 
-    public void startInput () {
+    public void startInput() {
         readDay();
         readMonth();
         readYear();

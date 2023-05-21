@@ -4,11 +4,11 @@ import java.util.Random;
 
 public enum AgeRestrictions {
 
-    AGE_SMAL("1-20"),
+    AGE_SMALL("1-20"),
     AGE_ADULT("20-40"),
     AGE_OLD("40-60");
 
-    private String limit;
+    private final String limit;
 
 
     AgeRestrictions(String limit) {

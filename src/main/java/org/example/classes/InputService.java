@@ -37,8 +37,11 @@ public class InputService {
     }
 
     public void startInput() {
+        MessageUtils.printDayRequest();
         readDay();
+        MessageUtils.printMonthRequest();
         readMonth();
+        MessageUtils.printYearRequest();
         readYear();
     }
 

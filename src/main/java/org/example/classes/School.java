@@ -55,4 +55,9 @@ public class School {
         return list.stream()
                 .filter(school -> validateAgeLimit(user, school)).toList();
     }
+
+    @Override
+    public String toString() {
+        return String.format("%s , %s , %s , %s , %s , %s", name, country, linkSchool, phoneNumber, email, address);
+    }
 }

@@ -4,7 +4,9 @@ import java.time.LocalDate;
 
 
 public class BirthdateCreator {
-    private InputService inputService;
+    private final InputService inputService;
+
+    private final static String LOCAL_DATE_FORMAT = "%s-%s-%s";
 
     public BirthdateCreator() {
         inputService = new InputService();
@@ -43,7 +45,7 @@ public class BirthdateCreator {
         String month = requestMonth();
         String year = requestYear();
 
-        String stringDate = String.format("%s-%s-%s", year, month, day);
+        String stringDate = String.format(LOCAL_DATE_FORMAT, year, month, day);
         return LocalDate.parse(stringDate);
     }
 
